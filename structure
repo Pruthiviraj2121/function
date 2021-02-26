@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+struct black{
+    int a,b;
+    int sum;
+    float rem;
+};
+int main()
+{
+    struct black t;
+    cout<<"enter the value of a and b:";
+    cin>>t.a>>t.b;
+    t.sum = t.a+t.b;
+    t.rem = t.a%t.b;
+    cout<<"The sum and rem is:"<<t.sum<<"\n"<<t.rem;
+    return 0;
+}
