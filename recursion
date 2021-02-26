@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int fact(int n)
+{
+    if (n<=1 || n==100)
+    {
+        return 1;
+    }    
+    else
+    {
+        return n*fact(n-1);
+    }    
+}
+int main()
+{
+    int x;
+    cout<<"enter the value of x:";
+    cin>>x;
+    cout<<"The factorial of"<<x<<"="<<fact(x);
+    return 0;
+}
