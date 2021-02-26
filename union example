@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+union pro{
+    int x;
+    float y;
+}a,b;
+
+int main()
+{
+    cout<<"memory of each member variable is:"<<sizeof(a)<<sizeof(b)<<"\t";
+    return 0;
+}
