@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+void arithmetic(int *x,int *y)
+{
+    
+    int sum = *x+*y;
+    cout<<"sum is:"<<sum<<"\n";
+    int sub = *x-*y;
+    cout<<"sub is:"<<sub<<"\n";
+    int mul = *x * *y;
+    cout<<"mul is:"<<mul<<"\n";
+    int divide = *x / *y;
+    cout<<"divide is:"<<divide<<"\n";
+    return ;
+}
+int main()
+{
+    int a,b;
+    cout<<"enter the values to execute arithmetic problems: ";
+    cin>>a>>b;
+    arithmetic(&a,&b);
+    return 0;
+}
