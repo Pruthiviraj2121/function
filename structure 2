@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+struct bike {
+    char name[10];
+    char driver[20];
+    int lno;
+};
+int main()
+{
+    bike b1;
+    cout<<"\nenter the bike name:";
+    cin>>b1.name;
+    cout<<"\nenter the name of driver:";
+    cin>>b1.driver;
+    cout<<"\nenter the license plate no.:";
+    cin>>b1.lno;
+    cout<<"you entered bike name:"<<b1.name<<"\n";
+    cout<<"the biker name is:"<<b1.driver<<"\n";
+    cout<<"license no.:"<<b1.lno<<"\n";
+}
